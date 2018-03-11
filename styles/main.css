@@ -1344,7 +1344,7 @@ header .logo a {
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
-.intro-content .button:hover, .intro-content .button:focus {
+.intro-content .button:hover {
 	border-color: #1d7bd7;
 }
 
@@ -1363,7 +1363,7 @@ header .logo a {
 .intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
 }
-.intro-social li a:hover, .intro-social li a:focus {
+.intro-social li a:hover {
 	color: #1d7bd7;
 }
 
