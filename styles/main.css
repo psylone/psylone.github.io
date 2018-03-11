@@ -1276,7 +1276,6 @@ header .logo a {
 	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
-	min-height: 720px;
 	display: table;
 	position: relative;
 	text-align: center;
@@ -1295,9 +1294,9 @@ header .logo a {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-	-webkit-transform: translateY(-2.1rem);
-	-ms-transform: translateY(-2.1rem);
-	transform: translateY(-2.1rem);
+	-webkit-transform: translateY(0rem);
+	-ms-transform: translateY(0rem);
+	transform: translateY(0rem);
 }
 .intro-content h1 {
 	color: #FFFFFF;
@@ -1340,6 +1339,7 @@ header .logo a {
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
 	margin-top: .6rem;
+	margin-bottom: 1.8rem;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
@@ -1350,10 +1350,7 @@ header .logo a {
 
 .intro-social {
 	display: block;
-	position: absolute;
 	width: 100%;
-	left: 0;
-	bottom: 7.2rem;
 	font-size: 3.3rem;
 	margin: 0;
 	padding: 0;
@@ -1387,9 +1384,6 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:768px) {
-	#intro {
-		min-height: 660px;
-	}
 	.intro-content h1 {
 		font-size: 5.2rem;
 	}
@@ -1407,9 +1401,6 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:600px) {
-	#intro {
-		min-height: 600px;
-	}
 	.intro-content h1 {
 		font-size: 4.6rem;
 		margin-bottom: .6rem;
